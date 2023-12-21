@@ -29,7 +29,7 @@ async def send_echo(message: Message):
         await message.reply(
             text='Данный тип апдейтов не поддерживается '
             'методом send_copy'
-            )
+        )
 
 
 if __name__ == '__main__':
